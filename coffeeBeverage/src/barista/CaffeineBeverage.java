@@ -2,7 +2,7 @@ package barista;
 
 public abstract class CaffeineBeverage {
   
-	final void prepareRecipe() {
+	public final void prepareRecipe() {
 		boilWater();
 		brew();
 		pourInCup();
